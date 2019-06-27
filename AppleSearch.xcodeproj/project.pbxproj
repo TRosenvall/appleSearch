@@ -56,15 +56,63 @@
 		85A600EF22C5227400A65132 /* AppleSearch */ = {
 			isa = PBXGroup;
 			children = (
+				85CE5F9A22C5234F004F81F3 /* Models */,
+				85CE5F9922C52348004F81F3 /* Views */,
+				85CE5F9622C5232E004F81F3 /* Controllers */,
+				85CE5F9522C52327004F81F3 /* Resources */,
+			);
+			path = AppleSearch;
+			sourceTree = "<group>";
+		};
+		85CE5F9522C52327004F81F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				85A600F022C5227400A65132 /* AppDelegate.swift */,
-				85A600F222C5227400A65132 /* ViewController.swift */,
-				85A600F422C5227400A65132 /* Main.storyboard */,
 				85A600FA22C5227600A65132 /* Assets.xcassets */,
 				85A600FC22C5227600A65132 /* LaunchScreen.storyboard */,
 				85A600FF22C5227600A65132 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		85CE5F9622C5232E004F81F3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				85CE5F9822C5233F004F81F3 /* Model Controllers */,
+				85CE5F9722C52338004F81F3 /* View Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		85CE5F9722C52338004F81F3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				85A600F222C5227400A65132 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		85CE5F9822C5233F004F81F3 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		85CE5F9922C52348004F81F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85A600F422C5227400A65132 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		85CE5F9A22C5234F004F81F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
 				85A600F722C5227400A65132 /* AppleSearch.xcdatamodeld */,
 			);
-			path = AppleSearch;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YY8J3FPYX8;
-				INFOPLIST_FILE = AppleSearch/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AppleSearch/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YY8J3FPYX8;
-				INFOPLIST_FILE = AppleSearch/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AppleSearch/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
